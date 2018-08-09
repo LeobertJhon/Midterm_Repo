@@ -21,4 +21,4 @@ MeanFunction <- function(dataset_csv, removeNA = TRUE){
   } 
   means_per_col
 }
-MeanFunction(dotosot)
+MeanFunction(dataset)
