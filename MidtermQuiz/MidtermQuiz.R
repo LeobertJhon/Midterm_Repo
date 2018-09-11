@@ -30,7 +30,7 @@ augmented <- function(IMAGE,H,W,GRAY,ANGLE){
   }
   if(ANGLE>1){
     imge <- load.image(IMAGE)
-    invimg <- imrotate(im=imge,angle)
+    invimg <- imrotate(im=imge,ANGLE)
     invimg1 <- save.image(im=invimg,file=paste0("InvertedImage.jpg"))
   }
 }
